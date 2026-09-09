@@ -1,0 +1,22 @@
+C:\Users\TheFactRio>curl -v https://itu.int
+* Host itu.int:443 was resolved.
+* IPv6: (none)
+* IPv4: 156.106.253.250
+*   Trying 156.106.253.250:443...
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server did not agree on a protocol. Uses default.
+* Established connection to itu.int (156.106.253.250 port 443) from 192.168.0.197 port 60189
+* using HTTP/1.x
+> GET / HTTP/1.1
+> Host: itu.int
+> User-Agent: curl/8.21.0
+> Accept: */*
+>
+* Request completely sent off
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.itu.int/
+< Connection: close
+< Content-Length: 0
+<
+* shutting down connection #0

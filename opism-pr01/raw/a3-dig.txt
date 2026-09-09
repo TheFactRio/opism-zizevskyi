@@ -1,0 +1,141 @@
+PS C:\WINDOWS\system32> Resolve-DnsName itu.int
+
+Name                                           Type   TTL   Section    IPAddress
+----                                           ----   ---   -------    ---------
+itu.int                                        AAAA   1652  Answer     2a00:7580:60:a252::3250
+itu.int                                        A      1652  Answer     156.106.253.250
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns7.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns8.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns6.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns3.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns2.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85352
+Section   : Authority
+NameHost  : ns5.itu.ch
+
+ns.itu.ch                                      A      1652  Additional 156.106.192.121
+ns2.itu.ch                                     A      1652  Additional 4.156.158.244
+ns3.itu.ch                                     A      1652  Additional 20.101.208.60
+ns5.itu.ch                                     A      1652  Additional 205.251.192.35
+ns6.itu.ch                                     A      1652  Additional 205.251.195.44
+ns7.itu.ch                                     A      2552  Additional 205.251.196.40
+ns8.itu.ch                                     A      2552  Additional 205.251.199.74
+ns.itu.ch                                      AAAA   1652  Additional 2a00:7580:60:2141::10
+ns2.itu.ch                                     AAAA   1652  Additional 2603:1030:20e:c::175
+ns3.itu.ch                                     AAAA   1652  Additional 2603:1020:203:3::20c
+ns5.itu.ch                                     AAAA   1652  Additional 2600:9000:5300:2300::1
+ns6.itu.ch                                     AAAA   1652  Additional 2600:9000:5303:2c00::1
+ns7.itu.ch                                     AAAA   2552  Additional 2600:9000:5304:2800::1
+ns8.itu.ch                                     AAAA   2552  Additional 2600:9000:5307:4a00::1
+
+
+
+PS C:\WINDOWS\system32> Resolve-DnsName itu.int
+
+Name                                           Type   TTL   Section    IPAddress
+----                                           ----   ---   -------    ---------
+itu.int                                        AAAA   1324  Answer     2a00:7580:60:a252::3250
+itu.int                                        A      1324  Answer     156.106.253.250
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns2.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns7.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns8.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns3.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns6.itu.ch
+
+
+Name      : itu.int
+QueryType : NS
+TTL       : 85024
+Section   : Authority
+NameHost  : ns5.itu.ch
+
+ns.itu.ch                                      A      1324  Additional 156.106.192.121
+ns2.itu.ch                                     A      1324  Additional 4.156.158.244
+ns3.itu.ch                                     A      1324  Additional 20.101.208.60
+ns5.itu.ch                                     A      1324  Additional 205.251.192.35
+ns6.itu.ch                                     A      1324  Additional 205.251.195.44
+ns7.itu.ch                                     A      2224  Additional 205.251.196.40
+ns8.itu.ch                                     A      2224  Additional 205.251.199.74
+ns.itu.ch                                      AAAA   1324  Additional 2a00:7580:60:2141::10
+ns2.itu.ch                                     AAAA   1324  Additional 2603:1030:20e:c::175
+ns3.itu.ch                                     AAAA   1324  Additional 2603:1020:203:3::20c
+ns5.itu.ch                                     AAAA   1324  Additional 2600:9000:5300:2300::1
+ns6.itu.ch                                     AAAA   1324  Additional 2600:9000:5303:2c00::1
+ns7.itu.ch                                     AAAA   2224  Additional 2600:9000:5304:2800::1
+ns8.itu.ch                                     AAAA   2224  Additional 2600:9000:5307:4a00::1

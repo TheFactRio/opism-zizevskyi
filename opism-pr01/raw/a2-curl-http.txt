@@ -1,0 +1,9 @@
+C:\>curl -v http://neverssl.com
+* Host neverssl.com:80 was resolved.
+* IPv6: (none)
+* IPv4: 34.223.124.45
+*   Trying 34.223.124.45:80...
+* connect to 34.223.124.45 port 80 from 0.0.0.0 port 64543 failed: Timed out
+* Failed to connect to neverssl.com:80 after 21081 ms: Could not connect to server
+* closing connection #0
+curl: (28) Failed to connect to neverssl.com:80 after 21081 ms: Could not connect to server
