@@ -1,0 +1,27 @@
+* Host nure.ua:80 was resolved.
+* IPv6: (none)
+* IPv4: 31.202.132.10
+*   Trying 31.202.132.10:80...
+* Established connection to nure.ua (31.202.132.10 port 80) from 192.168.94.131 port 51530 
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0* using HTTP/1.x
+> GET / HTTP/1.1
+> Host: nure.ua
+> User-Agent: curl/8.21.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Thu, 01 Oct 2026 18:44:57 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Connection: keep-alive
+< Location: https://nure.ua/
+< Strict-Transport-Security: max-age=31536000
+< Alt-Svc: quic=":443"; h3=":443"; h3-29=":443"; h3-27=":443";h3-25=":443"; h3-T050=":443"; h3-Q050=":443";h3-Q049=":443";h3-Q048=":443"; h3-Q046=":443"; h3-Q043=":443"
+< 
+{ [162 bytes data]
+100    162 100    162   0      0    184      0                              0
+* Connection #0 to host nure.ua:80 left intact

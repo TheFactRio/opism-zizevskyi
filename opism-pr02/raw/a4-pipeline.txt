@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Thu, 01 Oct 2026 18:39:49 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://nure.ua/opism-pr02-12345
+Strict-Transport-Security: max-age=31536000
+Alt-Svc: quic=":443"; h3=":443"; h3-29=":443"; h3-27=":443";h3-25=":443"; h3-T050=":443"; h3-Q050=":443";h3-Q049=":443";h3-Q048=":443"; h3-Q046=":443"; h3-Q043=":443"
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+HTTP/1.1 400 Bad Request
+Server: nginx
+Date: Thu, 01 Oct 2026 18:39:49 GMT
+Content-Type: text/html
+Content-Length: 150
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
